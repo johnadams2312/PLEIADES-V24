@@ -44,7 +44,7 @@ Public Class Form1
             Try
                 Button1.Text = "CONNECTED"
                 Button1.BackColor = Color.GreenYellow
-                SerialPort1.PortName = "com5"
+                SerialPort1.PortName = "com6"
                 SerialPort1.BaudRate = 9600
                 SerialPort1.DataBits = 8
                 SerialPort1.Open()
