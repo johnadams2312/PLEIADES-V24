@@ -77,6 +77,42 @@ Namespace My
                 Me("HOME") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("1")>  _
+        Public Property CURRENTDP() As String
+            Get
+                Return CType(Me("CURRENTDP"),String)
+            End Get
+            Set
+                Me("CURRENTDP") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property DOMEP() As String
+            Get
+                Return CType(Me("DOMEP"),String)
+            End Get
+            Set
+                Me("DOMEP") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("14")>  _
+        Public Property compo() As String
+            Get
+                Return CType(Me("compo"),String)
+            End Get
+            Set
+                Me("compo") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
