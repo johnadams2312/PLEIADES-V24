@@ -8,5 +8,14 @@
     <Setting Name="HOME" Type="System.String" Scope="User">
       <Value Profile="(Default)">88</Value>
     </Setting>
+    <Setting Name="CURRENTDP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="DOMEP" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="compo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
